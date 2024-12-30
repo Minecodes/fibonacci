@@ -1,6 +1,6 @@
 package fibonacci
 
-func Fib(n int) int {
+func FibIt(n int) int {
 	var (
 		res  = 0
 		calc = []int{n}
@@ -19,9 +19,9 @@ func Fib(n int) int {
 	return res
 }
 
-func FibRecursive(n int) int {
+func Fib(n int) int {
 	if n <= 1 {
 		return 1
 	}
-	return FibRecursive(n-1) + FibRecursive(n-2)
+	return Fib(n-1) + Fib(n-2)
 }
