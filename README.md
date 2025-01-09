@@ -8,6 +8,7 @@ Table of Contents
 -----------------
 
 * [Description](#description)
+* [Install](#install)
 * [Features](#features)
 * [Contribution Guidelines](#contribution-guidelines)
 
@@ -16,6 +17,12 @@ Table of Contents
 The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.
 
 This repository provides a simple library to calculate Fibonacci numbers up to a given limit. It allows you to compute various characteristics like highest prime factor, parity, and more.
+
+### Install
+
+```bash
+go get go.mcds.moe/fibonacci
+```
 
 ### Features
 
